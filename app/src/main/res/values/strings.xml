@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BouncingBall</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="param_prompt">Change Parameters</string>
+
+    <string-array name="parameters">
+        <item> Sliding Friction</item>
+        <item> Rolling Friction</item>
+        <item> Colliding Friction</item>
+        <item> Rail Restitution</item>
+        <item> Colliding Restitution</item>
+        <item> Spin Deceleration</item>
+    </string-array>
+</resources>
