@@ -120,7 +120,7 @@ public class AnimationThread extends Thread
         fillArrow(canvas, canvasWidth/2, canvasHeight/2, (canvasWidth/2) + 20*accelX, (canvasHeight/2) + 20*accelY);
         D3 a = new D3(accelX, accelY, accelZ);
         ball.doStep( a, delTime );
-        ball.railReflection( );
+//        ball.railReflection( );
         ball.draw(canvas);
     }
 
